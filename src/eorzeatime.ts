@@ -55,7 +55,7 @@ export interface EorzeaTime {
 }
 
 /**
- * Convert to Eorzea time from real-world time with UNIX epoch time.
+ * Calculate to Eorzea time from real-world time with UNIX epoch time.
  * If argument is not present, current time is assigned.
  * @example
  * ```ts
