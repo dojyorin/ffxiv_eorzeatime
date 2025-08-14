@@ -8,7 +8,7 @@ export interface EorzeaTime {
     /**
      * This has same meaning as UNIX epoch time in real-world.
      * The number of seconds elapsed since start of Eorzea time.
-     * The start point of Eorzea time is same as start point of UNIX epoch time (`1970-01-01T00:00:00Z`).
+     * The starting point of Eorzea time is same as starting point of UNIX epoch time (`1970-01-01T00:00:00Z`).
      * Since time moves faster in Eorzea than in real-world, this is UNIX epoch time multiplied by speed ratio.
      */
     epoch: number;
