@@ -7,7 +7,9 @@
 Calculate Eorzea time.
 
 ## Details
-Calculate to Eorzea time from real-world time.
+Calculate Eorzea time in online game [Final Fantasy XIV](https://jp.finalfantasyxiv.com).
+
+Eorzea time can be calculated from real-world time.
 
 ## Eorzea Time Specifications
 There are three differences between time in real-world and Eorzea.
