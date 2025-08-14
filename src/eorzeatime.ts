@@ -6,15 +6,14 @@ const SEC_YEAR = SEC_MONTH * 12;
 
 export interface EorzeaTime {
     /**
-     * This has same meaning as UNIX epoch time in real-world.
-     * The number of seconds elapsed since start of Eorzea time.
-     * The starting point of Eorzea time is same as starting point of UNIX epoch time (`1970-01-01T00:00:00Z`).
-     * Since time moves faster in Eorzea than in real-world, this is UNIX epoch time multiplied by speed ratio.
+     * This has same meaning as UNIX epoch time.
+     * The number of seconds elapsed since starting point of Eorzea time.
      */
     epoch: number;
 
     /**
-     * The starting point of Eorzea time was probably set for system reasons, so although year can be calculated, it is not very meaningful.
+     * The number of year.
+     * The starting point of Eorzea time was probably set for game development reasons, so although year can be calculated, it does not mean much because we do not know how it relates to story.
      */
     year: number;
 
@@ -39,6 +38,7 @@ export interface EorzeaTime {
     minutes: number;
 
     /**
+     * The number of seconds.
      * The concept of seconds exists and is necessary for calculating Eorzea time, but there is no way to check it in-game and it counts so quickly, it is not very useful.
      */
     seconds: number;
