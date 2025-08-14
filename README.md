@@ -29,3 +29,14 @@ Given these specifications, the number of seconds elapsed since starting point o
 ```math
 T_e = \lfloor T_u \times 144 \div 7 \rfloor
 ```
+
+## Example
+```ts
+import {eorzeatime} from "https://esm.sh/gh/dojyorin/ffxiv_eorzeatime@v1.0.0/mod.ts?bundle&target=esnext";
+
+const et = eorzeatime();
+```
+
+## API
+- `function eorzeatime(t?: number): EorzeaTime`
+- `interface EorzeaTime`
