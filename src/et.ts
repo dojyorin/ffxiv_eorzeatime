@@ -63,7 +63,7 @@ export interface EorzeaTime {
  * ```
  */
 export function eorzeatime(t?: number): EorzeaTime {
-    const epoch = Math.floor((t ?? Math.floor(Date.now() / 1000)) * 144 / 7);
+    const epoch = Math.floor((t ?? Date.now() / 1000 | 0) * 144 / 7);
 
     const r1 = epoch % SEC_YEAR;
     const r2 = r1 % SEC_MONTH;
