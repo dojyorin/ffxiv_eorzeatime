@@ -4,8 +4,6 @@
 ![shields:license](https://img.shields.io/github/license/dojyorin/ffxiv_eorzeatime)
 ![shields:release](https://img.shields.io/github/release/dojyorin/ffxiv_eorzeatime)
 
-Calculate Eorzea time.
-
 ## Details
 Calculate Eorzea time in online game [Final Fantasy XIV](https://jp.finalfantasyxiv.com).
 
@@ -40,5 +38,4 @@ const et = eorzeatime();
 ```
 
 ## API
-- `function eorzeatime(t?: number): EorzeaTime`
-- `interface EorzeaTime`
+- `eorzeatime(t?: number): EorzeaTime`
