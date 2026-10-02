@@ -1,4 +1,5 @@
 import {assertEquals} from "@std/assert";
+
 import {eorzeatime} from "../src/et.ts";
 
 Deno.test("Calculate at specified time", () => {
